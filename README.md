@@ -1,6 +1,6 @@
 # Capital Flow & Credit Risk Model — Australia & US (2025)
 
-**Author:** Ben Bones (Benjamin Benmas)
+**Author:** Ben B
 
 A comprehensive capital flow and credit risk modeling framework for Australian and US financial markets. This project demonstrates transparent, industry-standard credit risk analytics including PD/LGD/EAD models, Expected Credit Loss (ECL) calculations, Risk-Weighted Assets (RWA), and macro stress testing — all with an interactive Streamlit dashboard.
 
