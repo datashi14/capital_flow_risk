@@ -202,20 +202,6 @@ This project demonstrates:
 4. **Modern Stack:** Python, Streamlit, Plotly, pandas — industry-standard tools
 5. **Real-World Data:** Public APIs from central banks and regulators (RBA, APRA, FRED)
 
-### Example Interview Questions You Can Answer
-
-**Q: How do you model credit risk in a portfolio?**
-> "I built a full credit risk model using PD/LGD/EAD → ECL → RWA, calibrated to Australian and US macro data. The PD model is a log-linear function of unemployment, interest rates, and GDP growth. LGD varies with collateral values. I aggregate these at the portfolio level and calculate Basel III RWA using the Vasicek formula."
-
-**Q: How do you stress test a loan portfolio?**
-> "I implemented four scenarios: monetary tightening (+200bps rates), soft landing, funding shock, and severe recession. Each scenario applies shocks to macro variables, which flow through to PD and LGD increases. For example, in the tightening scenario, a 2pp unemployment rise increases PD by ~80% via the calibrated elasticity. I then recalculate ECL and RWA to measure capital impact."
-
-**Q: How do you handle IFRS 9 staging?**
-> "I classify loans into three stages based on SICR (significant increase in credit risk). Stage 1 uses 12-month ECL, Stage 2/3 use lifetime ECL. The simple rule is: Stage 3 if DPD > 90, Stage 2 if current PD > 2× origination PD, otherwise Stage 1. This is a simplified approach; in production you'd add qualitative overlays."
-
-**Q: Can you explain the difference between through-the-cycle and point-in-time PD?**
-> "Through-the-cycle PD is a long-run average, while point-in-time adjusts for current macro conditions. My model starts with a base PD (TTC) and multiplies by an exponential macro adjustment to get PIT. This makes PD responsive to unemployment, rates, and GDP without overfitting to short-term noise."
-
 ---
 
 ## 📈 Dashboard Features
@@ -360,4 +346,4 @@ This project showcases end-to-end credit risk modeling skills applicable to:
 
 **Built with:** Python • Streamlit • Plotly • Pandas • NumPy • Scikit-learn • FRED API
 
-**Last Updated:** October 2025
+**Last Updated:** October 2024
