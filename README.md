@@ -346,4 +346,4 @@ This project showcases end-to-end credit risk modeling skills applicable to:
 
 **Built with:** Python • Streamlit • Plotly • Pandas • NumPy • Scikit-learn • FRED API
 
-**Last Updated:** October 2024
+**Last Updated:** October 2025
