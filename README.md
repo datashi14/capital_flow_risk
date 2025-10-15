@@ -338,7 +338,7 @@ All data sources are publicly available. No proprietary or confidential informat
 
 ## 👤 Author
 
-**Ben Bones (Benjamin Benmas)**
+**Ben B**
 
 This project showcases end-to-end credit risk modeling skills applicable to:
 - Risk Analytics roles in banks/fintechs
