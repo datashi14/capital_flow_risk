@@ -1,0 +1,13 @@
+pandas
+numpy
+statsmodels
+scikit-learn
+xgboost
+matplotlib
+plotly
+streamlit
+requests
+duckdb
+fredapi
+openpyxl
+xlrd
